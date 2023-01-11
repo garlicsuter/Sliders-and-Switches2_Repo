@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class SwitchSuter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void SwitchEnabled()
     {
-        
+        Debug.Log("Switch is ON");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SwitchDisabled()
     {
-        
+        Debug.Log("Switch is OFF");
     }
 }
