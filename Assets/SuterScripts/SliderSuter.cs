@@ -7,7 +7,7 @@ public class SliderSuter : MonoBehaviour
 {
     public XRSlider myXrSlider;
     public TextMeshProUGUI powerText;
-    private float roundedPower;
+    public float roundedPower;
 
     public void SliderChange()
     {

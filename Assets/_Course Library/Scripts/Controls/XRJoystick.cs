@@ -69,9 +69,9 @@ public class XRJoystick : XRBaseInteractable
 
     private void ResetRotation()
     {
-        handle.localRotation = Quaternion.identity;
-        initialPosition = Vector3.zero;
-        SetValue(Vector3.zero);
+        //handle.localRotation = Quaternion.identity;
+        //initialPosition = Vector3.zero;
+        //SetValue(Vector3.zero);
     }
 
     public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase)
