@@ -6,6 +6,7 @@ public class JoystickSuter : MonoBehaviour
 {
     public GameObject Handle;
     public GameObject Barrell;
+    //public GameObject rotateTester;
 
     // Start is called before the first frame update
     void Start()
@@ -17,5 +18,7 @@ public class JoystickSuter : MonoBehaviour
     void Update()
     {
         Barrell.transform.rotation = Handle.transform.rotation;
+        //rotateTester.transform.rotation = Handle.transform.rotation;
+
     }
 }

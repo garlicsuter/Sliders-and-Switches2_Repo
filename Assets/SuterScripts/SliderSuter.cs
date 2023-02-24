@@ -11,8 +11,9 @@ public class SliderSuter : MonoBehaviour
 
     public void SliderChange()
     {
-        Debug.Log("Slider Value: " + myXrSlider.Value);
+        //Debug.Log("Slider Value: " + myXrSlider.Value);
         roundedPower = Mathf.Round(myXrSlider.Value * 100)/100f;
+        Debug.Log("roundedPower: " + roundedPower);
         powerText.SetText(roundedPower.ToString());
     }
 }
